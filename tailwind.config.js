@@ -13,7 +13,14 @@ export default {
         "neon":"#64ffda",
         "darkBlue":"#0a192f",
         "gray":"#ccd6f6",
-        "darkGray":"#8892b0"
+        "darkGray":"#8892b0",
+        "grayish":"#F5F5FA",
+        "night":"#121212",
+        "semiNight":"#1A1A1A",
+        "lighterGray":"#999999",
+        "darkerGray":"#333333",
+        "semiGray":"#E9EAEB",
+        "blue":"#016FFF",
       }
     },
   },
