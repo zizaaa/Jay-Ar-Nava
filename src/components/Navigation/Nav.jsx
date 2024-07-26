@@ -5,13 +5,13 @@ function Nav({isDark,toggleDarkMode,toggleDrawer}) {
   return (
     <div className='flex items-center justify-between'>
         <img 
-            src='./logo_2.png' 
+            src={isDark ? './logo_2.png':'./logo_blue.png'}
             className='h-10'
             alt='logo'
         />
 
         <button 
-            className='text-2xl text-darkGray dark:text-lighterGray hover:bg-semiGray hover:dark:bg-darkerGray p-2 rounded-md'
+            className='text-2xl text-gray dark:text-gray hover:bg-fadeGray hover:dark:bg-fadeBlue p-2 rounded-md'
             onClick={toggleDarkMode}
         >
             {
@@ -22,7 +22,7 @@ function Nav({isDark,toggleDarkMode,toggleDrawer}) {
 
         <button 
             onClick={toggleDrawer} 
-            className='text-2xl text-darkGray dark:text-lighterGray hover:bg-semiGray hover:dark:bg-darkerGray p-2 rounded-md'
+            className='text-2xl text-gray dark:text-gray hover:bg-fadeGray hover:dark:bg-fadeBlue p-2 rounded-md'
         >
             <RiMenu3Line/>
         </button>

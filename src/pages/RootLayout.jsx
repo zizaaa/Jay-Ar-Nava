@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Nav,Drawer, Hero } from '../links';
+import { Nav, Drawer, Hero } from '../links';
 
 function RootLayout() {
   // State to track dark mode
@@ -15,10 +15,18 @@ function RootLayout() {
     localStorage.setItem('isDark', JSON.stringify(newIsDark));
   };
 
-  //Function to toggle drawer
-  const toggleDrawer = () =>{
-    setIsShowDrawer(isShowDrawer ? false:true)
-  }
+  // Function to toggle drawer
+  const toggleDrawer = () => {
+    const newIsShowDrawer = !isShowDrawer;
+    setIsShowDrawer(newIsShowDrawer);
+
+    // Update the body overflow based on the new state
+    if (newIsShowDrawer) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = 'auto';
+    }
+  };
 
   useEffect(() => {
     // Retrieve isDark value from localStorage
@@ -31,12 +39,12 @@ function RootLayout() {
 
   return (
     <div className={isDark ? 'dark' : ''}>
-      <div className='h-screen w-full relative dark:bg-night bg-grayish'>
-        <Drawer isShowDrawer = {isShowDrawer} toggleDrawer = {toggleDrawer}/>
-
-        <main className='mx-56 pt-10'>
-          <Nav isDark={isDark} toggleDarkMode={toggleDarkMode} toggleDrawer = {toggleDrawer}/>
-          <Hero/>
+      <div className={`h-screen w-full relative ${isShowDrawer ? 'overflow-hidden' : 'overflow-auto'} dark:bg-darkBlue bg-grayish`}>
+        <Drawer isShowDrawer={isShowDrawer} toggleDrawer={toggleDrawer} />
+        
+        <main className={`mx-56 max-[900px]:mx-10 py-10 ${isShowDrawer ? 'hidden' : ''}`}>
+          <Nav isDark={isDark} toggleDarkMode={toggleDarkMode} toggleDrawer={toggleDrawer} />
+          <Hero />
         </main>
       </div>
     </div>
