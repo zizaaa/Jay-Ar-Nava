@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+
 import {
     PiBracketsCurlyBold,
     MdCardTravel,
@@ -12,13 +12,11 @@ import {
 function Drawer({ isShowDrawer, toggleDrawer }) {
     const [hoveredIcon, setHoveredIcon] = useState(<PiBracketsCurlyBold />);
 
-    const navigate = useNavigate();
-
     const handleClick = (path) => {
         toggleDrawer();
-        window.location.hash = `#${path}`;
+        document.getElementById(path)?.scrollIntoView({ behavior: 'smooth' });
     };
-
+    
     // Function to handle hover over list items
     const handleHover = (icon) => {
         setHoveredIcon(icon);
@@ -31,7 +29,7 @@ function Drawer({ isShowDrawer, toggleDrawer }) {
 
     return (
         <div
-            className={`${isShowDrawer ? 'translate-y-0' : '-translate-y-[200rem]'} absolute left-0 right-0 bottom-0 top-0 overflow-y-auto overflow-x-hidden transition-all duration-500 ease-in-out bg-fadeGray dark:bg-darkBlue text-[#4b4b4b] dark:text-fadeGray flex flex-col px-56 max-[900px]:px-10  `}
+            className={`${isShowDrawer ? 'translate-y-0' : '-translate-y-[200rem]'} absolute left-0 right-0 bottom-0 top-0 overflow-y-auto overflow-x-hidden transition-all duration-300 bg-fadeGray dark:bg-darkBlue text-[#4b4b4b] dark:text-fadeGray flex flex-col px-56 max-[900px]:px-10  z-20`}
         >
             <div className='w-full py-10 flex items-center justify-end'>
                 <button
@@ -57,6 +55,7 @@ function Drawer({ isShowDrawer, toggleDrawer }) {
                     className='flex items-center gap-5 text-3xl font-bold w-full cursor-pointer hover:translate-x-10 transition-all duration-200 ease-linear p-5 z-10'
                     onMouseEnter={() => handleHover(<MdCardTravel />)}
                     onMouseLeave={handleLeave}
+                    onClick={()=>{handleClick('experience')}}
                 >
                     <span className='drop-shadow-md'>
                         <MdCardTravel />
@@ -67,6 +66,7 @@ function Drawer({ isShowDrawer, toggleDrawer }) {
                     className='flex items-center gap-5 text-3xl font-bold w-full cursor-pointer hover:translate-x-10 transition-all duration-200 ease-linear p-5 z-10'
                     onMouseEnter={() => handleHover(<FaHammer />)}
                     onMouseLeave={handleLeave}
+                    onClick={()=>{handleClick('projects')}}
                 >
                     <span className='drop-shadow-md'>
                         <FaHammer />
@@ -77,6 +77,7 @@ function Drawer({ isShowDrawer, toggleDrawer }) {
                     className='flex items-center gap-5 text-3xl font-bold w-full cursor-pointer hover:translate-x-10 transition-all duration-200 ease-linear p-5 z-10'
                     onMouseEnter={() => handleHover(<GiGraduateCap />)}
                     onMouseLeave={handleLeave}
+                    onClick={()=>{handleClick('education')}}
                 >
                     <span className='drop-shadow-md'>
                         <GiGraduateCap />

@@ -9,6 +9,10 @@ import { LiaMedalSolid } from "react-icons/lia";
 import { RxCross2 } from "react-icons/rx";
 import { GrCopy } from "react-icons/gr";
 import { BsChatDots } from "react-icons/bs";
+import { MdWork } from "react-icons/md";
+import { FaChevronDown } from "react-icons/fa";
+import { FaChevronUp } from "react-icons/fa";
+import { FaExternalLinkAlt } from "react-icons/fa";
 
 export {
     FaMoon,
@@ -21,5 +25,9 @@ export {
     LiaMedalSolid,
     RxCross2,
     GrCopy,
-    BsChatDots
+    BsChatDots,
+    MdWork,
+    FaChevronDown,
+    FaChevronUp,
+    FaExternalLinkAlt
 }
