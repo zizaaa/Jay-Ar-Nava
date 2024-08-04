@@ -16,7 +16,7 @@ function Education() {
                     </div>
                     <div className='ms-5'>
                         <p className='text-gray text-sm leading-3'>Strand:</p>
-                        <p className='text-white font-medium mb-2'>Computer System Servicing</p>
+                        <p className='dark:text-white font-medium mb-2'>Computer System Servicing</p>
                         <p className='text-gray text-sm'>2019-2021</p>
                         <p className='text-gray text-[0.90rem]'>Yobhel Christian Academy Inc.</p>
                     </div>
@@ -30,7 +30,7 @@ function Education() {
                     </div>
                     <div className='ms-5'>
                         <p className='text-gray text-sm leading-3'>Degree:</p>
-                        <p className='text-white font-medium mb-2'>Bachelor of Science in Information Technology</p>
+                        <p className='dark:text-white font-medium mb-2'>Bachelor of Science in Information Technology</p>
                         <p className='text-gray text-sm'>2021-2024</p>
                         <p className='text-gray text-[0.90rem]'>AMA Computer College - Naga</p>
                     </div>
