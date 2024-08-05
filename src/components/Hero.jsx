@@ -2,6 +2,11 @@ import React from 'react'
 import { GrCopy,BsChatDots } from '../icons'
 
 function Hero() {
+
+    const handleNavigate = (path) => {
+        document.getElementById(path)?.scrollIntoView({ behavior: 'smooth' });
+    };
+
     return (
         <section className='mt-10' id='hero'>
             <div className='w-full flex items-center justify-center text-center'>
@@ -50,12 +55,15 @@ function Hero() {
                     </span>
                     Resume
                 </a>
-                <a href='#' className='bg-fadeGray dark:bg-fadeBlue dark:text-white px-6 py-2 rounded-full text-xl font-medium flex items-center justify-center gap-2 hover:scale-110 transition-all duration-200'>
+                <button 
+                    className='bg-fadeGray dark:bg-fadeBlue dark:text-white px-6 py-2 rounded-full text-xl font-medium flex items-center justify-center gap-2 hover:scale-110 transition-all duration-200'
+                    onClick={()=>{handleNavigate('contact')}}
+                >
                     <span>
                         <BsChatDots/>
                     </span>
                     Contact
-                </a>
+                </button>
             </div>
         </section>
     )

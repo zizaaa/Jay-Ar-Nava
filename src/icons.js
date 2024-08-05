@@ -13,6 +13,9 @@ import { MdWork } from "react-icons/md";
 import { FaChevronDown } from "react-icons/fa";
 import { FaChevronUp } from "react-icons/fa";
 import { FaExternalLinkAlt } from "react-icons/fa";
+import { GrCertificate } from "react-icons/gr";
+import { ImQuotesLeft } from "react-icons/im";
+import { ImQuotesRight } from "react-icons/im";
 
 export {
     FaMoon,
@@ -29,5 +32,8 @@ export {
     MdWork,
     FaChevronDown,
     FaChevronUp,
-    FaExternalLinkAlt
+    FaExternalLinkAlt,
+    GrCertificate,
+    ImQuotesLeft,
+    ImQuotesRight
 }

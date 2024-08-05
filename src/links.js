@@ -8,6 +8,9 @@ import Projects from "./components/Projects";
 import ProjectCard from "./components/cards/ProjectCard";
 import { ProjectList } from "./constant";
 import Education from "./components/Education";
+import Certificates from "./components/Certificates";
+import Contact from "./components/Contact";
+import Footer from "./components/Navigation/Footer";
 
 export {
     RootLayout,
@@ -19,5 +22,8 @@ export {
     Projects,
     ProjectCard,
     ProjectList,
-    Education
+    Education,
+    Certificates,
+    Contact,
+    Footer
 }

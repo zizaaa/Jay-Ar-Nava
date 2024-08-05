@@ -88,6 +88,7 @@ function Drawer({ isShowDrawer, toggleDrawer }) {
                     className='flex items-center gap-5 text-3xl font-bold w-full cursor-pointer hover:translate-x-10 transition-all duration-200 ease-linear p-5 z-10'
                     onMouseEnter={() => handleHover(<LiaMedalSolid />)}
                     onMouseLeave={handleLeave}
+                    onClick={()=>{handleClick('certificates')}}
                 >
                     <span className='drop-shadow-md'>
                         <LiaMedalSolid />
