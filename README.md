@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="/logo_2.png" alt="Logo" width="150">
+  <img src="public/logo_2.png" alt="Logo" width="150">
 </p>
 
 <h1 align="center">Portfolio - Jay Ar Nava</h1>
