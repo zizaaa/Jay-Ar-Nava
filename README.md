@@ -6,8 +6,8 @@
 
 <p align="center">
   My personal portfolio built with React Js.<br>
-  Cloned from dnachavez's <a href="https://github.com/dnachavez/portfolio">portfolio</a> project.<br>
-  Based on devenapuros's <a href="https://github.com/devenapuros/portfolio">portfolio</a> project.
+  Cloned from ziza's <a href="https://github.com/zizaaa/Jay-Ar-Nava">portfolio</a> project.<br>
+  Based on dnachavez's <a href="https://github.com/dnachavez/portfolio">portfolio</a> project.
 </p>
 
 ## Built With 🚀
