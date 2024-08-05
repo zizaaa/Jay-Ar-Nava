@@ -68,7 +68,7 @@ function Footer({ isDark }) {
                     <img src={isDark ? '/logo_2.png' : '/logo_blue.png'} className='w-10 h-10' />
                     <h1 className='font-bold dark:text-white'>Jay Ar Nava</h1>
                 </div>
-                <ul className='flex flex-row max-[500px]:flex-col gap-5 text-gray font-medium cursor-pointer'>
+                <ul className='flex flex-row max-[500px]:flex-col max-[500px]:mt-5 gap-5 text-gray font-medium cursor-pointer'>
                     <li className='hover:underline transition-all duration-200' onClick={() => handleNavigate('start')}>
                         Start
                     </li>
