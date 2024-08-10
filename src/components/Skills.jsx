@@ -32,6 +32,13 @@ function Skills() {
                     </div>
                     <div className='group bg-fadeGray dark:bg-fadeBlue max-[500px]:w-20 max-[500px]:h-20 w-28 h-28 flex min-[500px]:flex-row flex-col items-center justify-center rounded-md overflow-hidden relative'>
                         <img 
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" 
+                            className='min-[500px]:h-14 min-[500px]:w-14 h-10 w-10 min-[500px]:group-hover:translate-x-9 min-[500px]:group-hover:translate-y-9 min-[500px]:group-hover:h-24 min-[500px]:group-hover:w-24 min-[500px]:group-hover:opacity-30 min-[500px]:transition-all min-[500px]:duration-200'
+                        />
+                        <p className='min-[500px]:absolute dark:text-slate-300 min-[500px]:font-bold text-center max-[500px]:text-sm max-[500px]:mt-1 min-[500px]:group-hover:scale-100 min-[500px]:scale-0 min-[500px]:transition-all duration-200'>Typescript</p>
+                    </div>
+                    <div className='group bg-fadeGray dark:bg-fadeBlue max-[500px]:w-20 max-[500px]:h-20 w-28 h-28 flex min-[500px]:flex-row flex-col items-center justify-center rounded-md overflow-hidden relative'>
+                        <img 
                             src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg"
                             className='min-[500px]:h-14 min-[500px]:w-14 h-10 w-10 min-[500px]:group-hover:translate-x-9 min-[500px]:group-hover:translate-y-9 min-[500px]:group-hover:h-24 min-[500px]:group-hover:w-24 min-[500px]:group-hover:opacity-30 min-[500px]:transition-all min-[500px]:duration-200'
                         />
