@@ -96,7 +96,7 @@ function Footer({ isDark }) {
                         <span className='text-blue dark:text-neon'>
                             <ImQuotesLeft />
                         </span>
-                        <p className='text-white'>
+                        <p className='text-gray dark:text-white'>
                             {quotesOftheDay || error}
                         </p>
                         <span className='text-blue dark:text-neon'>
