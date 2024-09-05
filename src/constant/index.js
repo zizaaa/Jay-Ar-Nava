@@ -70,5 +70,13 @@ export const ProjectList = [
         link: '',
         imgLink: '/projects/BookLinker.png',
         color:"#6D2932"
+    },
+    {
+        id: 9,
+        title: "BlogCorner",
+        desk: "BlogCorner is a web-based blog system using the PERN stack (PostgreSQL, Express.js, React.js, Node.js). It simplifies blog creation, management, and exploration with a user-friendly interface and secure authentication.",
+        link: 'https://blog-corner-chi.vercel.app/',
+        imgLink: '/projects/BlogCorner.png',
+        color:"#4D99BC"
     }
 ];
