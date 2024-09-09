@@ -1,11 +1,11 @@
 export const ProjectList = [
     {
         id: 1,
-        title: "Harmony Organic",
-        desk: "Award-winning mini project developed during a bootcamp, initially a front-end project using Bootstrap and React.",
-        link: 'https://zizaaa.github.io/HarmonyOrganic/',
-        imgLink: '/projects/organicShop.png',
-        color:"#7C8D43"
+        title: "BlogCorner",
+        desk: "BlogCorner is a web-based blog system using the PERN stack (PostgreSQL, Express.js, React.js, Node.js). It simplifies blog creation, management, and exploration with a user-friendly interface and secure authentication.",
+        link: 'https://blogcorner.vercel.app/',
+        imgLink: '/projects/BlogCorner.png',
+        color:"#4D99BC"
     },
     {
         id: 2,
@@ -72,11 +72,11 @@ export const ProjectList = [
         color:"#6D2932"
     },
     {
-        id: 9,
-        title: "BlogCorner",
-        desk: "BlogCorner is a web-based blog system using the PERN stack (PostgreSQL, Express.js, React.js, Node.js). It simplifies blog creation, management, and exploration with a user-friendly interface and secure authentication.",
-        link: 'https://blog-corner-chi.vercel.app/',
-        imgLink: '/projects/BlogCorner.png',
-        color:"#4D99BC"
+        id: 10,
+        title: "Harmony Organic",
+        desk: "Award-winning mini project developed during a bootcamp, initially a front-end project using Bootstrap and React.",
+        link: 'https://zizaaa.github.io/HarmonyOrganic/',
+        imgLink: '/projects/organicShop.png',
+        color:"#7C8D43"
     }
 ];
