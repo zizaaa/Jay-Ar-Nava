@@ -19,7 +19,7 @@ export const ProjectList = [
         id: 3,
         title: "PalengkE",
         desk: "E-commerce app connecting farmers and consumers for buying and selling fresh produce.",
-        link: 'https://palengk-e.vercel.app/',
+        link: '',
         imgLink: '/projects/palengke.png',
         color:"#435E39"
     },
@@ -78,5 +78,13 @@ export const ProjectList = [
         link: 'https://zizaaa.github.io/HarmonyOrganic/',
         imgLink: '/projects/organicShop.png',
         color:"#7C8D43"
+    },
+    {
+        id:11,
+        title:"Civil Registry Information System",
+        desk:"The Civil Registry Information System was designed for local government units to streamline and digitize civil record management, making it easier for citizens to access vital records such as birth certificates, marriage licenses, death certificates, and other official documents. Our client aimed to modernize their existing paper-based processes, reduce errors, and improve efficiency in handling public records.",
+        link:"https://civil-registry-informationsystem.vercel.app/",
+        imgLink:"/projects/CRIS.png",
+        color:"#0E7490"
     }
 ];
