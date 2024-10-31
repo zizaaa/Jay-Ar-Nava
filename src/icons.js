@@ -16,6 +16,8 @@ import { FaExternalLinkAlt } from "react-icons/fa";
 import { GrCertificate } from "react-icons/gr";
 import { ImQuotesLeft } from "react-icons/im";
 import { ImQuotesRight } from "react-icons/im";
+import { RiUserHeartLine } from "react-icons/ri";
+import { HiOutlineIdentification } from "react-icons/hi2";
 
 export {
     FaMoon,
@@ -35,5 +37,7 @@ export {
     FaExternalLinkAlt,
     GrCertificate,
     ImQuotesLeft,
-    ImQuotesRight
+    ImQuotesRight,
+    RiUserHeartLine,
+    HiOutlineIdentification
 }

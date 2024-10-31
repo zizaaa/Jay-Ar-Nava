@@ -11,12 +11,14 @@ import Education from "./components/Education";
 import Certificates from "./components/Certificates";
 import Contact from "./components/Contact";
 import Footer from "./components/Navigation/Footer";
+import AboutMe from "./components/AboutMe";
 
 export {
     RootLayout,
     Nav,
     Drawer,
     Hero,
+    AboutMe,
     Skills,
     Experience,
     Projects,

@@ -32,7 +32,7 @@ function Hero() {
                     </li>
                     <span className='h-6 w-[1px] border-[1px] border-dashed border-darkGray dark:border-gray'></span>
                     <li className='flex flex-row max-[600px]:flex-col gap-2 items-center justify-center max-[600px]:text-center dark:text-gray'>
-                        <span className='bg-fadeGray dark:bg-fadeBlue px-3 py-1 rounded-lg font-medium dark:text-white'>100k+</span>
+                        <span className='bg-fadeGray dark:bg-fadeBlue px-3 py-1 rounded-lg font-medium dark:text-white'>500k+</span>
                         <div className='flex flex-col text-sm max-[350px]:text-[12px] leading-[0.90rem]'>
                             <p>Lines of</p>
                             <p>code written</p>

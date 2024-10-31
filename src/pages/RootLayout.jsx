@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Nav, Drawer, Hero, Skills, Experience, Projects, Education, Certificates, Contact, Footer } from '../links';
+import { Nav, Drawer, Hero, Skills, Experience, Projects, Education, Certificates, Contact, Footer, AboutMe } from '../links';
 
 function RootLayout() {
   // State to track dark mode
@@ -45,6 +45,7 @@ function RootLayout() {
         <main className={`mx-56 max-[1075px]:mx-10 py-10`} id='start'>
           <Nav isDark={isDark} toggleDarkMode={toggleDarkMode} toggleDrawer={toggleDrawer} />
           <Hero />
+          <AboutMe/>
           <Skills />
           <Experience isDark = {isDark}/>
           <Projects />

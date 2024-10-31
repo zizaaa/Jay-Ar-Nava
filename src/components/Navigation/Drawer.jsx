@@ -6,11 +6,12 @@ import {
     FaHammer,
     GiGraduateCap,
     LiaMedalSolid,
-    RxCross2
+    RxCross2,
+    HiOutlineIdentification
 } from '../../icons';
 
 function Drawer({ isShowDrawer, toggleDrawer }) {
-    const [hoveredIcon, setHoveredIcon] = useState(<PiBracketsCurlyBold />);
+    const [hoveredIcon, setHoveredIcon] = useState(<HiOutlineIdentification />);
 
     const handleClick = (path) => {
         toggleDrawer();
@@ -24,7 +25,7 @@ function Drawer({ isShowDrawer, toggleDrawer }) {
 
     // Reset hovered icon when mouse leaves list item
     const handleLeave = () => {
-        setHoveredIcon(<PiBracketsCurlyBold />);
+        setHoveredIcon(<HiOutlineIdentification />);
     };
 
     return (
@@ -40,6 +41,17 @@ function Drawer({ isShowDrawer, toggleDrawer }) {
                 </button>
             </div>
             <ul className='w-full flex flex-col items-center justify-center flex-1'>
+                <li
+                    className='flex items-center gap-5 text-3xl font-bold w-full cursor-pointer hover:translate-x-10 transition-all duration-200 ease-linear p-5 z-10'
+                    onMouseEnter={() => handleHover(<HiOutlineIdentification />)}
+                    onMouseLeave={handleLeave}
+                    onClick={()=>{handleClick('about')}}
+                >
+                    <span className='drop-shadow-md'>
+                        <HiOutlineIdentification />
+                    </span>
+                    <span className='drop-shadow-md'>About me</span>
+                </li>
                 <li
                     className='flex items-center gap-5 text-3xl font-bold w-full cursor-pointer hover:translate-x-10 transition-all duration-200 ease-linear p-5 z-10'
                     onMouseEnter={() => handleHover(<PiBracketsCurlyBold />)}
