@@ -15,7 +15,7 @@ function Contact() {
                     <div>
                         <h6 className='text-gray'>Send me an email:</h6>
                         <a 
-                            href="mailto:someone@example.com"
+                            href="mailto:winfourteen@gmail.com"
                             className='dark:text-white font-medium'
                         >
                             winfourteen@gmail.com
