@@ -1,5 +1,3 @@
-import React from 'react'
-
 function Contact() {
     return (
         <section className='mt-24' id='contact'>

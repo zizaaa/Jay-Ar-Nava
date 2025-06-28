@@ -1,5 +1,3 @@
-import React from 'react'
-
 function AboutMe() {
     return (
         <section className='mt-24' id='about'>

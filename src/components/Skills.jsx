@@ -1,5 +1,3 @@
-import React from 'react'
-
 function Skills() {
     return (
         <section className='mt-24' id='skills'>

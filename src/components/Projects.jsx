@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from 'react';
+import { useState, useRef, useEffect } from 'react';
 import { ProjectCard, ProjectList } from '../links';
 import { FaChevronDown, FaChevronUp } from '../icons';
 

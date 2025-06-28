@@ -1,5 +1,3 @@
-import React from 'react'
-
 function Education() {
     return (
         <section className='mt-24' id='education'>

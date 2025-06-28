@@ -1,4 +1,3 @@
-import React from 'react'
 import { GrCopy,BsChatDots } from '../icons'
 
 function Hero() {

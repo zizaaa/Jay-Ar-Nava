@@ -1,4 +1,3 @@
-import React from 'react'
 import { FaExternalLinkAlt } from '../../icons'
 
 function ProjectCard({data}) {

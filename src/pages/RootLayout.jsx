@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { Nav, Drawer, Hero, Skills, Experience, Projects, Education, Certificates, Contact, Footer, AboutMe } from '../links';
 
 function RootLayout() {
