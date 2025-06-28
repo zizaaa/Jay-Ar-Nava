@@ -18,11 +18,14 @@ function Experience({ isDark }) {
             <h1 className='dark:text-white text-4xl font-bold'>
                 Experience<span className='text-blue dark:text-neon'>.</span>
             </h1>
-            <div className='bg-fadeGray dark:bg-transparent mt-5 p-5 rounded-md'>
-                <VerticalTimeline>
+            <div className='xbg-fadeGray dark:bg-transparent mt-5 p-5 rounded-md'>
+                <VerticalTimeline 
+                    lineColor={isDark ? '#016FFF' : '#016FFF'}
+                >
                     <VerticalTimelineElement
                         className="vertical-timeline-element--work relative"
-                        contentStyle={{ background: isDark ? '#26354d80' : '', color: isDark ? '#fff' : '' }}
+                        contentStyle={{ background: isDark ? '#26354d80' : '', color: isDark ? '#fff' : '', borderTop: isDark ? '5px solid #64ffda':'5px solid #016FFF' }}
+                        contentArrowStyle={{ borderRight: isDark ? '': '7px solid  #016FFF' }}
                         date="May - July 2024"
                         iconStyle={{ background: '#016FFF', color: '#fff' }}
                         icon={<MdWork />}
@@ -86,7 +89,8 @@ function Experience({ isDark }) {
                     </VerticalTimelineElement>
                     <VerticalTimelineElement
                         className="vertical-timeline-element--work relative"
-                        contentStyle={{ background: isDark ? '#26354d80' : '', color: isDark ? '#fff' : '' }}
+                        contentStyle={{ background: isDark ? '#26354d80' : '', color: isDark ? '#fff' : '', borderTop: isDark ? '5px solid #64ffda':'5px solid #016FFF' }}
+                        contentArrowStyle={{ borderRight: isDark ? '': '7px solid  #016FFF' }}
                         date="January 2025 - Present"
                         iconStyle={{ background: '#016FFF', color: '#fff' }}
                         icon={<MdWork />}

@@ -7,12 +7,15 @@ function Certificates({isDark}) {
             <h1 className='dark:text-white text-4xl font-bold'>
                 Certificates<span className='text-blue dark:text-neon'>.</span>
             </h1>
-            <div className='bg-fadeGray dark:bg-transparent mt-5 p-5 rounded-md'>
-                <VerticalTimeline>
+            <div className=' dark:bg-transparent mt-5 p-5 rounded-md'>
+                <VerticalTimeline
+                    lineColor={isDark ? '#016FFF' : '#016FFF'}
+                >
                     <VerticalTimelineElement
                         className="vertical-timeline-element--work relative"
+                        contentStyle={{ background: isDark ? '#26354d80' : '', color: isDark ? '#fff' : '', borderTop: isDark ? '5px solid #64ffda':'5px solid #016FFF' }}
+                        contentArrowStyle={{ borderRight: isDark ? '': '7px solid  #016FFF' }}
                         date="April - July 25 2023"
-                        contentStyle={{ background: isDark ? '#26354d80' : '', color: isDark ? '#fff' : '' }}
                         iconStyle={{ background: '#016FFF', color: '#fff' }}
                         icon={<GrCertificate />}
                     >
