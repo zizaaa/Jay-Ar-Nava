@@ -1,7 +1,7 @@
 function Contact() {
     return (
         <section className='mt-24' id='contact'>
-            <h2 className='dark:text-white text-4xl font-bold'>
+            <h2 className='dark:text-white sm:text-4xl text-3xl font-bold'>
                 Contact<span className='text-blue dark:text-neon'>.</span>
             </h2>
             <div className='mt-5 flex flex-row gap-5 flex-wrap'>
@@ -12,7 +12,7 @@ function Contact() {
                         alt="Jay Ar Nava's Gmail account"
                     />
                     <div>
-                        <span className='text-gray'>Send me an email:</span>
+                        <span className='text-gray'>Send me an email: </span>
                         <a 
                             href="mailto:winfourteen@gmail.com"
                             className='dark:text-white font-medium'
@@ -30,7 +30,7 @@ function Contact() {
                         alt="Jay Ar Nava's LinkedIn account"
                     />
                     <div>
-                        <span className='text-gray'>My LinkedIn account:</span>
+                        <span className='text-gray'>My LinkedIn account: </span>
                         <a 
                             href="https://www.linkedin.com/in/jay-ar-nava-97b7a7223/"
                             className='dark:text-white font-medium'
@@ -48,7 +48,7 @@ function Contact() {
                         alt="Jay Ar Nava's GitHub account"
                     />
                     <div>
-                        <span className='text-gray'>My github account:</span>
+                        <span className='text-gray'>My github account: </span>
                         <a 
                             href="https://github.com/zizaaa"
                             className='dark:text-white font-medium'
@@ -66,7 +66,7 @@ function Contact() {
                         alt="Jay Ar Nava's Instagram account"
                     />
                     <div>
-                        <span className='text-gray'>My instagram account:</span>
+                        <span className='text-gray'>My instagram account: </span>
                         <a 
                             href="https://www.instagram.com/zizaadesu/"
                             className='dark:text-white font-medium'

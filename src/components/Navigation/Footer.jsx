@@ -92,7 +92,7 @@ function Footer({ isDark }) {
             <div className='flex flex-row max-[860px]:flex-col items-center justify-between mt-10'>
                 <div className='w-80 max-[860px]:w-full flex flex-col max-[860px]:items-center gap-1'>
                     <h3 className='text-gray'>Quote of the day:</h3>
-                    <div className='flex gap-2 text-sm max-[860px]:text-xl max-[860px]:text-center'>
+                    <div className='flex gap-2 text-sm max-[860px]:text-xl max-sm:text-lg max-[860px]:text-center'>
                         <span className='text-blue dark:text-neon'>
                             <ImQuotesLeft />
                         </span>

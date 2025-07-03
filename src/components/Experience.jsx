@@ -15,7 +15,7 @@ function Experience({ isDark }) {
 
     return (
         <section className='mt-24' id='experience'>
-            <h2 className='dark:text-white text-4xl font-bold'>
+            <h2 className='dark:text-white sm:text-4xl text-3xl font-bold'>
                 Experience<span className='text-blue dark:text-neon'>.</span>
             </h2>
             <div className='xbg-fadeGray dark:bg-transparent mt-5 p-5 rounded-md'>
@@ -30,7 +30,7 @@ function Experience({ isDark }) {
                         iconStyle={{ background: '#016FFF', color: '#fff' }}
                         icon={<MdWork />}
                     >
-                        <h3 className="vertical-timeline-element-title font-bold text-xl">Full-Stack Developer (Intern)</h3>
+                        <h3 className="vertical-timeline-element-title font-bold sm:text-xl text-lg">Full-Stack Developer (Intern)</h3>
                         <a href='#' aria-label='AMA Computer College' className="underline vertical-timeline-element-subtitle">AMA Computer College</a>
                         <p className='text-gray'>
                             I led the design and development of our web app using the MERN stack, handling both frontend and backend tasks, including UI design, server-side logic, and API integration to ensure a seamless user experience.
@@ -96,7 +96,7 @@ function Experience({ isDark }) {
                         iconStyle={{ background: '#016FFF', color: '#fff' }}
                         icon={<MdWork />}
                     >
-                        <h3 className="vertical-timeline-element-title font-bold text-xl">Front End Developer</h3>
+                        <h3 className="vertical-timeline-element-title font-bold sm:text-xl text-lg">Front End Developer</h3>
                         <a href='https://bainry.com/' target='_blank' aria-label='Bainry Company' className="underline vertical-timeline-element-subtitle">Bainry</a>
                         <p className='text-gray'>
                             Vue.js Front-End Developer at Bainry, responsible for independently designing and developing responsive, user-focused web interfaces. I manage the full front-end development lifecycle—from translating UI/UX concepts into code to deploying functional, maintainable components using Vue.js and modern web technologies.

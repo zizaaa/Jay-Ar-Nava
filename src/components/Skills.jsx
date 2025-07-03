@@ -1,11 +1,11 @@
 function Skills() {
     return (
         <section className='mt-24' id='skills'>
-            <h2 className='dark:text-white text-4xl font-bold'>
+            <h2 className='dark:text-white sm:text-4xl text-3xl font-bold'>
                 Skills<span className='text-blue dark:text-neon'>.</span>
             </h2>
-            <div className='mt-10 w-full'>
-                <h3 className='text-xl text-slate-500'>Technologies and tools</h3>
+            <div className='sm:mt-10 mt-3 w-full'>
+                <h3 className='sm:text-xl text-lg text-slate-500'>Technologies and tools</h3>
                 <div className='flex gap-2 w-full items-center max-[500px]:justify-center flex-wrap mt-5'>
                     <div className='group bg-fadeGray dark:bg-fadeBlue max-[500px]:w-20 max-[500px]:h-20 w-28 h-28 flex min-[500px]:flex-row flex-col items-center justify-center rounded-md overflow-hidden relative'>
                         <img 

@@ -15,7 +15,7 @@ function Projects() {
 
     return (
         <section className='mt-24' id='projects'>
-            <h2 className='dark:text-white text-4xl font-bold'>
+            <h2 className='dark:text-white sm:text-4xl text-3xl font-bold'>
                 Projects<span className='text-blue dark:text-neon'>.</span>
             </h2>
             <div

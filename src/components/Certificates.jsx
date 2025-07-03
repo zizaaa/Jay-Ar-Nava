@@ -4,7 +4,7 @@ import { GrCertificate,FaExternalLinkAlt } from '../icons';
 function Certificates({isDark}) {
     return (
         <section className='mt-24' id='certificates'>
-            <h2 className='dark:text-white text-4xl font-bold'>
+            <h2 className='dark:text-white sm:text-4xl text-3xl font-bold'>
                 Certificates<span className='text-blue dark:text-neon'>.</span>
             </h2>
             <div className=' dark:bg-transparent mt-5 p-5 rounded-md'>
@@ -19,7 +19,7 @@ function Certificates({isDark}) {
                         iconStyle={{ background: '#016FFF', color: '#fff' }}
                         icon={<GrCertificate />}
                     >
-                        <h3 className="vertical-timeline-element-title font-bold text-xl">KodeGo Bootcamp Certificate</h3>
+                        <h3 className="vertical-timeline-element-title font-bold sm:text-xl text-lg">KodeGo Bootcamp Certificate</h3>
                         <h4 className="vertical-timeline-element-subtitle">Full Stack Web Development Completion</h4>
                         <p className='text-gray'>
                             I successfully completed the 16-week Full Stack Web Development Bootcamp at KodeGo. During this course, I received awards for Best Mini Project, Top Student, and Leadership, reflecting my commitment and performance throughout the program.

@@ -1,7 +1,7 @@
 function Education() {
     return (
         <section className='mt-24' id='education'>
-            <h2 className='dark:text-white text-4xl font-bold'>
+            <h2 className='dark:text-white sm:text-4xl text-3xl font-bold'>
                 Education<span className='text-blue dark:text-neon'>.</span>
             </h2>
             <div className='mt-5 grid grid-cols-2 max-[650px]:grid-cols-1 gap-2'>
