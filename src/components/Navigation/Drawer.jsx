@@ -108,12 +108,12 @@ function Drawer({ isShowDrawer, toggleDrawer }) {
                     </span>
                     <span className='drop-shadow-md'>Certificates</span>
                 </li>
-                <div className='absolute right-5 -bottom-10 flex items-center justify-center w-96 h-96 max-[600px]:hidden'>
+                <li className='absolute right-5 -bottom-10 flex items-center justify-center w-96 h-96 max-[600px]:hidden'>
                     <span className='w-full h-full text-[24rem] text-gray dark:text-neon opacity-30'>
                         {/* Display hovered icon */}
                         {hoveredIcon}
                     </span>
-                </div>
+                </li>
             </ul>
         </div>
     );

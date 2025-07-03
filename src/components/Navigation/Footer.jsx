@@ -7,7 +7,7 @@ function Footer({ isDark }) {
         <footer className='border-t-[1px] border-gray mt-5 p-5'>
             <div className='flex flex-row max-[700px]:flex-col gap-2 max-[500px]:items-start items-center justify-between'>
                 <div className='flex items-center gap-3'>
-                    <img src={isDark ? '/logo_2.png' : '/logo_blue.png'} className='w-10 h-10' alt="Jay Ar Nava Full Stack Developer logo"/>
+                    <img src={isDark ? '/logo_2.png' : '/logo_blue.png'} className='w-10 h-10' alt="Jay Ar Nava Full Stack Developer logo" loading="lazy"/>
                     <h2 className='font-bold dark:text-white'>Jay Ar Nava</h2>
                 </div>
                 <ul className='flex flex-row max-[500px]:flex-col max-[500px]:mt-5 gap-5 text-gray font-medium cursor-pointer'>

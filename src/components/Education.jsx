@@ -11,6 +11,7 @@ function Education() {
                             src='/education/Yobhel-logo.png'
                             className='h-full w-full'
                             alt="Jay Ar Nava Secondary Education School logo"
+                            loading="lazy"
                         />
                     </div>
                     <div className='ms-5'>
@@ -26,6 +27,7 @@ function Education() {
                             src='/education/AMA-Logo.png'
                             className='h-full w-full object-contain'
                             alt="Jay Ar Nava Tertiary Education School logo"
+                            loading="lazy"
                         />
                     </div>
                     <div className='ms-5'>

@@ -114,7 +114,7 @@ function Experience({ isDark }) {
                                     <div className='flex items-center gap-2 p-1 rounded-sm'>
                                         {/* <i className="devicon-vuejs-plain colored"></i> */}
                                         <div className='h-5 w-5'>
-                                            <img src="/icons/pug.png" className="h-full w-full object-cover" alt="pug image" />
+                                            <img src="/icons/pug.png" className="h-full w-full object-cover" alt="pug image" loading="lazy"/>
                                         </div>
                                         <span>Pug Js</span>
                                     </div>

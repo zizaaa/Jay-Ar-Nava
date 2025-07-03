@@ -10,6 +10,7 @@ function Contact() {
                         src='/icons/gmail.png'
                         className='w-14 h-14'
                         alt="Jay Ar Nava's Gmail account"
+                        loading="lazy"
                     />
                     <div>
                         <span className='text-gray'>Send me an email: </span>
@@ -28,6 +29,7 @@ function Contact() {
                         src='/icons/linkedin.png'
                         className='w-14 h-14'
                         alt="Jay Ar Nava's LinkedIn account"
+                        loading="lazy"
                     />
                     <div>
                         <span className='text-gray'>My LinkedIn account: </span>
@@ -46,6 +48,7 @@ function Contact() {
                         src='/icons/github-sign.png'
                         className='w-14 h-14'
                         alt="Jay Ar Nava's GitHub account"
+                        loading="lazy"
                     />
                     <div>
                         <span className='text-gray'>My github account: </span>
@@ -64,6 +67,7 @@ function Contact() {
                         src='/icons/instagram.png'
                         className='w-14 h-14'
                         alt="Jay Ar Nava's Instagram account"
+                        loading="lazy"
                     />
                     <div>
                         <span className='text-gray'>My instagram account: </span>

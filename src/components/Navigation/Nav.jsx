@@ -8,6 +8,7 @@ function Nav({isDark,toggleDarkMode,toggleDrawer}) {
                 src={isDark ? './logo_2.png':'./logo_blue.png'}
                 className='h-10'
                 alt="Jay Ar Nava Full Stack Developer logo"
+                loading="lazy"
             />
 
             <button 

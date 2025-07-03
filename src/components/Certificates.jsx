@@ -35,6 +35,7 @@ function Certificates({isDark}) {
                                     src='/certificates/certificate.jpg'
                                     className='group-hover:scale-125 transition-all duration-200'
                                     alt="Jay Ar Nava's KodeGo Certificate for Full Stack Web Development Bootcamp"
+                                    loading="lazy"
                                 />
                                 <span className='absolute -right-7 -top-3 flex items-center justify-center text-[#8c8c8c] dark:text-fadeBlue scale-0 group-hover:scale-100 transition-all duration-200 text-xl'>
                                     <FaExternalLinkAlt/>
