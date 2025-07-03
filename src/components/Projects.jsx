@@ -15,9 +15,9 @@ function Projects() {
 
     return (
         <section className='mt-24' id='projects'>
-            <h1 className='dark:text-white text-4xl font-bold'>
+            <h2 className='dark:text-white text-4xl font-bold'>
                 Projects<span className='text-blue dark:text-neon'>.</span>
-            </h1>
+            </h2>
             <div
                 ref={contentRef}
                 className={`grid grid-cols-2 max-[500px]:grid-cols-1 transition-all duration-300 overflow-hidden mt-5`}
@@ -31,6 +31,7 @@ function Projects() {
                 <button
                     className='flex items-center gap-2 text-black dark:text-white bg-fadeGray dark:bg-fadeBlue px-4 py-2 rounded-full drop-shadow-md font-medium hover:scale-110 transition-all duration-200'
                     onClick={() => setIsShowMore(!isShowMore)}
+                    aria-label='Toggle Projects Visibility'
                 >
                     <span>
                         {isShowMore ? <FaChevronUp /> : <FaChevronDown />}

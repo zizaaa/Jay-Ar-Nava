@@ -11,23 +11,26 @@ function ProjectCard({data}) {
                     src={data.imgLink}
                     className='h-full w-auto object-contain group-hover:scale-110 transition-all duration-300'
                     loading='lazy'
+                    alt={data.alt}
                 />
             </div>
             <div className='w-full mt-3 flex items-center justify-between'>
                 <div>
-                    <h1 className='text-xl font-medium dark:text-white'>
+                    <h2 className='text-xl font-medium dark:text-white'>
                         {data.title}
-                    </h1>
-                    <h2 className='text-sm text-[#8c8c8c] dark:text-gray'>
-                        {data.desk}
                     </h2>
+                    <p className='text-sm text-[#8c8c8c] dark:text-gray'>
+                        {data.desk}
+                    </p>
                 </div>
                 {
                     data.link ?
                     (
                         <a 
                             href={`${data.link}`} 
+                            target='_blank'
                             className='p-3 rounded-md text-[#8c8c8c] dark:text-white bg-fadeGray dark:bg-fadeBlue hover:scale-110 hover:drop-shadow-md transition-all duration-200'
+                            aria-label={data.ariaLabel}
                         >
                             <FaExternalLinkAlt/>
                         </a>

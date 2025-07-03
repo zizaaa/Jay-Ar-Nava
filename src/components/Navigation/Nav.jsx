@@ -7,12 +7,13 @@ function Nav({isDark,toggleDarkMode,toggleDrawer}) {
             <img 
                 src={isDark ? './logo_2.png':'./logo_blue.png'}
                 className='h-10'
-                alt='logo'
+                alt="Jay Ar Nava Full Stack Developer logo"
             />
 
             <button 
                 className='text-2xl text-gray dark:text-gray hover:bg-fadeGray hover:dark:bg-fadeBlue p-2 rounded-md'
                 onClick={toggleDarkMode}
+                aria-label='Toggle Dark Mode'
             >
                 {
                     isDark ?
@@ -23,6 +24,7 @@ function Nav({isDark,toggleDarkMode,toggleDrawer}) {
             <button 
                 onClick={toggleDrawer} 
                 className='text-2xl text-gray dark:text-gray hover:bg-fadeGray hover:dark:bg-fadeBlue p-2 rounded-md'
+                aria-label='Toggle Navigation Drawer'
             >
                 <RiMenu3Line/>
             </button>

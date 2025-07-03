@@ -36,6 +36,7 @@ function Drawer({ isShowDrawer, toggleDrawer }) {
                 <button
                     onClick={toggleDrawer}
                     className='text-3xl'
+                    aria-label='Close Navigation Drawer'
                 >
                     <RxCross2 />
                 </button>

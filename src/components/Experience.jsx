@@ -15,9 +15,9 @@ function Experience({ isDark }) {
 
     return (
         <section className='mt-24' id='experience'>
-            <h1 className='dark:text-white text-4xl font-bold'>
+            <h2 className='dark:text-white text-4xl font-bold'>
                 Experience<span className='text-blue dark:text-neon'>.</span>
-            </h1>
+            </h2>
             <div className='xbg-fadeGray dark:bg-transparent mt-5 p-5 rounded-md'>
                 <VerticalTimeline 
                     lineColor={isDark ? '#016FFF' : '#016FFF'}
@@ -30,16 +30,16 @@ function Experience({ isDark }) {
                         iconStyle={{ background: '#016FFF', color: '#fff' }}
                         icon={<MdWork />}
                     >
-                        <h1 className="vertical-timeline-element-title font-bold text-xl">Full-Stack Developer (Intern)</h1>
-                        <a href='#' className="underline vertical-timeline-element-subtitle">AMA Computer College</a>
+                        <h3 className="vertical-timeline-element-title font-bold text-xl">Full-Stack Developer (Intern)</h3>
+                        <a href='#' aria-label='AMA Computer College' className="underline vertical-timeline-element-subtitle">AMA Computer College</a>
                         <p className='text-gray'>
                             I led the design and development of our web app using the MERN stack, handling both frontend and backend tasks, including UI design, server-side logic, and API integration to ensure a seamless user experience.
                         </p>
                         <div className={`overflow-hidden transition-all duration-500 ${toSeeId === '1' ? 'max-h-screen' : 'max-h-0'}`} id='1'>
                             <div>
-                                <h5 className='mt-5 my-2 text-xl font-bold'>
+                                <h4 className='mt-5 my-2 text-xl font-bold'>
                                     Activities
-                                </h5>
+                                </h4>
                                 <ul className="list-disc ml-5 text-gray">
                                     <li>Lead the design and development of our web app project using the MERN stack (MongoDB, Express.js, React, Node.js).</li>
                                     <li>Designed and implemented the user interface.</li>
@@ -79,6 +79,7 @@ function Experience({ isDark }) {
                             <button 
                                 className='flex items-center gap-2 bg-fadeGray dark:bg-darkBlue px-4 py-2 rounded-full drop-shadow-md font-medium hover:scale-110 transition-all duration-200'
                                 onClick={() => toggleShow('1')}
+                                aria-label='Toggle Experience Details'
                             >
                                 <span>
                                     {toSeeId === '1' ? <FaChevronUp /> : <FaChevronDown />}
@@ -95,8 +96,8 @@ function Experience({ isDark }) {
                         iconStyle={{ background: '#016FFF', color: '#fff' }}
                         icon={<MdWork />}
                     >
-                        <h1 className="vertical-timeline-element-title font-bold text-xl">Front End Developer</h1>
-                        <a href='https://bainry.com/' className="underline vertical-timeline-element-subtitle">Bainry</a>
+                        <h3 className="vertical-timeline-element-title font-bold text-xl">Front End Developer</h3>
+                        <a href='https://bainry.com/' target='_blank' aria-label='Bainry Company' className="underline vertical-timeline-element-subtitle">Bainry</a>
                         <p className='text-gray'>
                             Vue.js Front-End Developer at Bainry, responsible for independently designing and developing responsive, user-focused web interfaces. I manage the full front-end development lifecycle—from translating UI/UX concepts into code to deploying functional, maintainable components using Vue.js and modern web technologies.
                         </p>
@@ -128,6 +129,7 @@ function Experience({ isDark }) {
                             <button 
                                 className='flex items-center gap-2 bg-fadeGray dark:bg-darkBlue px-4 py-2 rounded-full drop-shadow-md font-medium hover:scale-110 transition-all duration-200'
                                 onClick={() => toggleShow('2')}
+                                aria-label='Toggle Experience Details'
                             >
                                 <span>
                                     {toSeeId === '2' ? <FaChevronUp /> : <FaChevronDown />}

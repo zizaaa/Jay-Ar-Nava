@@ -1,9 +1,9 @@
 function AboutMe() {
     return (
         <section className='mt-24' id='about'>
-            <h1 className='dark:text-white text-4xl font-bold'>
+            <h2 className='dark:text-white text-4xl font-bold'>
                 About me<span className='text-blue dark:text-neon'>.</span>
-            </h1>
+            </h2>
             <div  className='flex flex-row max-[800px]:flex-col gap-5'>
                 <div className='flex-1'>
                     <p className='text-xl text-gray dark:text-fadeGray mt-5 indent-20 max-[800px]:indent-5'>
@@ -19,7 +19,7 @@ function AboutMe() {
                     <figure className='relative z-10'> {/* Foreground image */}
                         <img 
                             src='/3.JPG'
-                            alt='my-picture'
+                            alt='Jay Ar Nava'
                             className='w-full h-full rounded-md'
                             loading='lazy'
                         />
